@@ -1,0 +1,113 @@
+
+local blur = Instance.new("Frame")
+local fakekick = Instance.new("Frame")
+local real = Instance.new("TextLabel")
+local Zeus = Instance.new("TextLabel")
+local real_2 = Instance.new("TextLabel")
+local error = Instance.new("TextLabel")
+local load = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+
+
+
+blur.Name = "blur"
+blur.Parent = game.CoreGui
+blur.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+blur.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+blur.BackgroundTransparency = 0.500
+blur.Size = UDim2.new(0, 1345, 0, 810)
+
+fakekick.Name = "fake kick"
+fakekick.Parent = blur
+fakekick.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+fakekick.Position = UDim2.new(0.315985143, 0, 0.312345684, 0)
+fakekick.Size = UDim2.new(0, 494, 0, 225)
+
+real.Name = "real"
+real.Parent = fakekick
+real.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+real.BackgroundTransparency = 1.000
+real.Position = UDim2.new(0.228744939, 0, 0.0414937772, 0)
+real.Size = UDim2.new(0, 269, 0, 84)
+real.Font = Enum.Font.SourceSans
+real.Text = "_____________________________________________________________________"
+real.TextColor3 = Color3.fromRGB(225, 225, 225)
+real.TextSize = 14.000
+real.TextStrokeColor3 = Color3.fromRGB(225, 225, 225)
+
+Zeus.Name = "Zeus"
+Zeus.Parent = fakekick
+Zeus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Zeus.BackgroundTransparency = 1.000
+Zeus.Position = UDim2.new(0.170040488, 0, 0, 0)
+Zeus.Size = UDim2.new(0, 326, 0, 50)
+Zeus.Font = Enum.Font.SourceSans
+Zeus.Text = "Zeus"
+Zeus.TextColor3 = Color3.fromRGB(225, 225, 225)
+Zeus.TextSize = 30.000
+Zeus.TextStrokeColor3 = Color3.fromRGB(225, 225, 225)
+
+real_2.Name = "real"
+real_2.Parent = fakekick
+real_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+real_2.BackgroundTransparency = 1.000
+real_2.Position = UDim2.new(0.192307696, 0, 0.324444443, 0)
+real_2.Size = UDim2.new(0, 287, 0, 62)
+real_2.Font = Enum.Font.SourceSans
+real_2.Text = "Loaded, Son em hoes"
+real_2.TextColor3 = Color3.fromRGB(225, 225, 225)
+real_2.TextSize = 31.000
+
+error.Name = "error"
+error.Parent = fakekick
+error.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+error.BackgroundTransparency = 2.000
+error.Position = UDim2.new(0.279352218, 0, 0.48888889, 0)
+error.Size = UDim2.new(0, 200, 0, 50)
+error.Font = Enum.Font.SourceSans
+error.Text = "(Error Code: 69)"
+error.TextColor3 = Color3.fromRGB(225, 225, 225)
+error.TextSize = 20.000
+error.TextStrokeColor3 = Color3.fromRGB(225, 225, 225)
+
+load.Name = "load"
+load.Parent = fakekick
+load.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+load.BorderColor3 = Color3.fromRGB(27, 42, 53)
+load.Position = UDim2.new(0.0607287474, 0, 0.773333311, 0)
+load.Size = UDim2.new(0, 434, 0, 34)
+load.Font = Enum.Font.SourceSans
+load.Text = "bet"
+load.TextColor3 = Color3.fromRGB(57, 57, 57)
+load.TextSize = 25.000
+
+UICorner.Parent = load
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(207, 207, 207)), ColorSequenceKeypoint.new(0.83, Color3.fromRGB(233, 233, 233)), ColorSequenceKeypoint.new(0.84, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(227, 227, 227)), ColorSequenceKeypoint.new(0.88, Color3.fromRGB(209, 209, 209)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = load
+
+-- Scripts:
+
+local function FLFQAZ_fake_script() -- blur.LocalScript 
+	local script = Instance.new('LocalScript', blur)
+
+	local b = script.Parent
+	local l = script.Parent.load
+	
+	
+	l.MouseButton1Click:Connect(function()
+		b.Visible = false
+	end)
+end
+coroutine.wrap(FLFQAZ_fake_script)()
+
+-- get reference to GUI element
+local b = blur
+
+-- check if GUI element is hidden
+if not b.Visible then
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/23781732819/aSASAsdsdadsdadsdasdasdasdasasdasdasddsasdasdasdasdasdasdasdasdasdasdasdasd/main/dsasdadsdasddsd", true))()
+else
+	print("I'm gay")
+end
